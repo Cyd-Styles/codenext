@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Classics"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openClassicsActivity"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1db954"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Fantasy"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openFantasyActivity"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1db954"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Historical Fiction"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openHistoricalFictionActivity"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1db954"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Mystery"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openMysteryActivity"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1db954"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Non-Fiction"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openNonFictionActivity"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1db954"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Romance"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openRomanceActivity"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1db954"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#212121"
+        android:gravity="center"
+        android:text="Science Fiction"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:onClick="openScienceFictionActivity"/>
+
+</LinearLayout>
