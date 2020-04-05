@@ -31,7 +31,7 @@ public class CategoryItem {
         return genre;
     }
 
-    public int getBookcover() {
+    public int getBookCover() {
         return bookcover;
     }
 }

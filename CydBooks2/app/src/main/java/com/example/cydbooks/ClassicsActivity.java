@@ -33,7 +33,7 @@ public class ClassicsActivity extends AppCompatActivity {
         classics.add(new CategoryItem("The Scarlet Letter", "Nathaniel Hawthorne", "", "Classics", R.drawable.the_scarlet_letter));
 
         ListView classicsListview = findViewById(R.id.classics_listview);
-        CategoryAdapter albumAdapter = new CategoryAdapter(this, classics);
+        CategoryAdapter classicsAdapter = new CategoryAdapter(this, classics);
         classicsListview.setAdapter(classicsAdapter);
     }
 }
