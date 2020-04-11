@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ClassicsActivity"></activity>
+        <activity android:name=".FantasyActivity"></activity>
+        <activity android:name=".RomanceActivity"></activity>
     </application>
 
 </manifest>

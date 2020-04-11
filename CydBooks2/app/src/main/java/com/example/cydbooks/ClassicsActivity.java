@@ -31,6 +31,9 @@ public class ClassicsActivity extends AppCompatActivity {
         classics.add(new CategoryItem("The Great Gatsby", "F. Scott Fitzgerald", "", "Classics", R.drawable.the_great_gatsby));
         classics.add(new CategoryItem("The Handmaid's Tale", "Margaret Atwood", "", "Classics", R.drawable.the_handmaids_tale));
         classics.add(new CategoryItem("The Scarlet Letter", "Nathaniel Hawthorne", "", "Classics", R.drawable.the_scarlet_letter));
+        classics.add(new CategoryItem("Kindred", "Octavia E. Butler", "", "Classics", R.drawable.kindred));
+        classics.add(new CategoryItem("Anthem", "Ayn Rand", "", "Classics", R.drawable.anthem));
+        classics.add(new CategoryItem("The Giver", "Lois Lowry", "", "classics", R.drawable.the_giver));
 
         ListView classicsListview = findViewById(R.id.classics_listview);
         CategoryAdapter classicsAdapter = new CategoryAdapter(this, classics);
